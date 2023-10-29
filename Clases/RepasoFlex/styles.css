@@ -1,0 +1,33 @@
+.flex-container {
+    height: 600px;
+    display: flex;
+  
+  }
+  body {
+    font-size: 4rem;
+    font-family: sans-serif;
+    background-color: #555843;
+  }
+  
+  .flex-container {
+    background-color: #A7D397;
+    border-radius: 10px;
+    border: solid 2px #555843;
+  }
+  
+  .flex-container > * {
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px #555843;
+    border-radius: 10px;
+    background-color: #F5EEC8;
+  }
+
+/* Display: flex
+Flex-direction: row/ column…
+Flex-wrap
+Justify-content
+Align-items
+Align-content
+Align-self
+order */
