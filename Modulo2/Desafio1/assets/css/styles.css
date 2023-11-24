@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -20,5 +22,29 @@
     background-color: blue;
     height: 100vh;
     width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.right-section .principal-img{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+
+.right-section .title-text{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right-section .text{
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
 
 }
