@@ -28,11 +28,30 @@
 }
 
 .left-section .profile-image img{
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
+    border: 2px solid #BEC1BB;
 }
 
+.left-section .profile-text{
+    margin-left: -50px;
+}
+
+.left-section .profile-name{
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.left-section .profile-status{
+    font-size: 15px;
+    color: #828485;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.left-section .profile-icons{
+    min-height: 10px;
+}
 
 .left-section .chat{
     min-height: 15vh;
