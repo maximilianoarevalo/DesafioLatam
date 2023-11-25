@@ -12,13 +12,80 @@
 }
 
 .left-section{
-    background-color: red;
     height: 100vh;
-    width: 30vw;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-section .profile{
+    min-height: 10vh;
+    display: flex;
+    border: 1px solid #BEC1BB;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.left-section .profile-image img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+
+.left-section .chat{
+    min-height: 15vh;
+    border: 1px solid #BEC1BB;
+    display: flex;
+}
+
+.left-section .chat .new-chat{
+    background-color: #A491D2;
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 16px;
+    border: none;
+}
+
+.left-section .contacts{
+    height: 80vh;
+}
+
+.left-section .person{
+    display: flex;
+    align-items: center;
+    border: 1px solid #BEC1BB;;
+    width: 100%;
+    height: 120px;
+}
+
+.left-section .person-image img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 35px;
+}
+
+.left-section .person-data{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-section .person-data:first-child{
+    margin-bottom: 5px;
+}
+
+.left-section .person-text{
+    color: #1B1F21;
 }
 
 .right-section{
-    background-color: #fff;
+    background-color: #E8EBE4;
     height: 100vh;
     width: 80vw;
     display: flex;
