@@ -70,6 +70,14 @@
     border: none;
 }
 
+.left-section .chat .new-chat:hover{
+    background-color: #D4DCFF;
+}
+
+.left-section .chat .new-chat:focus{
+    background-color: #BEC1BB;
+}
+
 .left-section .contacts{
     height: 80vh;
 }
@@ -102,8 +110,6 @@
 .left-section .person-name{
     color: #1B1F21;
     font-family: 'Roboto', sans-serif;
-
-
 }
 
 .left-section .person-text{
