@@ -54,19 +54,19 @@
 }
 
 .left-section .chat{
-    min-height: 15vh;
+    min-height: 20vh;
     border: 1px solid #BEC1BB;
     display: flex;
 }
 
 .left-section .chat .new-chat{
     background-color: #A491D2;
-    width: 200px;
+    width: 240px;
     height: 60px;
     margin: auto;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 16px;
+    font-size: 15px;
     border: none;
 }
 
@@ -83,8 +83,8 @@
 }
 
 .left-section .person-image img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     margin-right: 10px;
     margin-left: 35px;
@@ -99,8 +99,16 @@
     margin-bottom: 5px;
 }
 
+.left-section .person-name{
+    color: #1B1F21;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
 .left-section .person-text{
     color: #1B1F21;
+    font-family: 'Open sans', sans-serif;
 }
 
 .right-section{
