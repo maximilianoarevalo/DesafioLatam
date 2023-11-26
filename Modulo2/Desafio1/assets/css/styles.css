@@ -21,7 +21,8 @@
 .left-section .profile{
     min-height: 10vh;
     display: flex;
-    border: 1px solid #BEC1BB;
+    border-right: 2px solid #e0e0e0;
+    border-bottom: 2px solid #e0e0e0;
     align-items: center;
     justify-content: space-around;
 
@@ -55,7 +56,8 @@
 
 .left-section .chat{
     min-height: 20vh;
-    border: 1px solid #BEC1BB;
+    border-right: 2px solid #e0e0e0;
+    border-bottom: 2px solid #e0e0e0;
     display: flex;
 }
 
@@ -80,12 +82,13 @@
 
 .left-section .contacts{
     height: 80vh;
+    border-right: 2px solid #e0e0e0;
 }
 
 .left-section .person{
     display: flex;
     align-items: center;
-    border: 1px solid #BEC1BB;;
+    border-bottom: 2px solid #e0e0e0;;
     width: 100%;
     height: 120px;
 }
@@ -96,6 +99,7 @@
     border-radius: 50%;
     margin-right: 10px;
     margin-left: 35px;
+    border: 2px solid #BEC1BB;
 }
 
 .left-section .person-data{
@@ -129,9 +133,10 @@
 
 
 .right-section .principal-img{
-    width: 250px;
-    height: 250px;
-    margin: auto;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 25px;
+    border-radius: 5%;
 }
 
 
