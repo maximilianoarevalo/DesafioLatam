@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+header{
+    display: flex;
+    height: 73px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+header h1{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.principal-iguana{
+    background-image: url('../images/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 150vh;
+}
+
+.iguana-description{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+
+.iguana-description .iguana-description-text{
+    font-family: 'Raleway', sans-serif;
+    color: white;   
+    font-size: 19px;
+    font-weight: 300;
+    width: 50%;
+    padding-right: 150px;
+}
+
+.iguana-description .iguana-description-image{
+    width: 500px;
+    height: 350px;
+}
+
+.iguana-features{
+    background-color: #1E1A13;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+
+.iguana-features h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.iguana-features .features{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 150px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.iguana-features .features .feature-description{
+    width: 300px;
+    font-size: 30px;
+}
+
+.iguana-features .features .feature-description p{
+    font-size: 29px;
+    padding: 20px;
+    /* agregar fuente delgada */
+}
+
+.iguana-gallery{
+    background-color: black;
+    display: flex;
+    padding: 75px;
+    justify-content: space-evenly;
+}
+
+.iguana-gallery .iguana-image{
+    width: 500px;
+    height: 300px;
+}
+
+.footer{
+    height: 100px;
+    background-color: #1E1A13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
